@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'BlissMedium';
+    src: url('../fonts/BlissMedium.eot');
+    src: url('../fonts/BlissMedium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BlissMedium.woff2') format('woff2'),
+    url('../fonts/BlissMedium.woff') format('woff'),
+    url('../fonts/BlissMedium.ttf') format('truetype'),
+    url('../fonts/BlissMedium.svg#BlissMedium') format('svg');
+    /**/font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'big_caslonmedium';
+    src: url('../fonts/big_caslon_medium-webfont.eot');
+    src: url('../fonts/big_caslon_medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/big_caslon_medium-webfont.woff2') format('woff2'),
+    url('../fonts/big_caslon_medium-webfont.woff') format('woff'),
+    url('../fonts/big_caslon_medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "LenzingCircularWeb-Light";
+    src: url("../fonts/LenzingCircularWeb-Light.eot");
+    src: url("../fonts/LenzingCircularWeb-Light.eot#iefix") format("embedded-opentype"),
+    url("../fonts/LenzingCircularWeb-Light.woff2") format("woff2"),
+    url("../fonts/LenzingCircularWeb-Light.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "BlissMedium","Regular","微软雅黑",Arial,sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

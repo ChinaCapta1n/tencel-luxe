@@ -18,6 +18,31 @@ const routes = [
                 path: '/about',
                 name: 'about',
                 component: () => import('./views/AboutPage/index.vue')
+            },
+            {
+                path: '/connect',
+                name: 'connect',
+                component: () => import('./views/ConnectPage/index.vue')
+            },
+            {
+                path: '/process',
+                name: 'process',
+                component: () => import("./views/ProcessPage/index.vue")
+            },
+            {
+                path: '/qualities',
+                name: 'qualities',
+                component: () => import('./views/QualitiesPage/index.vue')
+            },
+            {
+                path: '/stories',
+                name: 'stories',
+                component: () => import("./views/StoriesPage/index.vue")
+            },
+            {
+                path: '/sustainability',
+                name: '/sustainability',
+                component: () => import('./views/SustainabilityPage/index.vue')
             }
         ]
     },

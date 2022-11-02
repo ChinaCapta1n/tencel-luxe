@@ -1,0 +1,44 @@
+{
+    "results": [
+        {
+            "data": {
+                "navigations": [
+                    {
+                        "text": "About",
+                        "link": "/about",
+                        "subnavigations": [
+                            {
+                                "text": "Process", "link": "/about/process"
+                            },
+                            {
+                                "text": "Sustainavility", "link": "/about/sustainability"
+                            },
+                            {
+                                "text": "Qualities", "link": "/about/qualities"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Stories",
+                        "link": "/stories",
+                        "subnavigations":[
+                            {"text" : "Human Stories" , "link" : "/stories/Human-Stories" },
+                            {"text" : "Nature Stories" , "link" :"/stories/Nature-Stories" },
+                            {"text" : "Technology Stories" ,"link" : "/stories/Technology-Stories" }
+                        ]
+                    },
+                    {
+                        "text":"Connect",
+                        "link": "/contact",
+                        "subnavigations":[
+                          {"text" : "Email Us" , "link" : "mailto:t.kosch@lenzing.com" },
+                          {"text" : "Contact Form" , "link" :"/contact"},
+                          {"text" : "Instagram" ,"link" : "https://www.instagram.com/tencel_luxe/","target":"blank" },
+                          {"text" : "Facebook","link" : "https://www.facebook.com/profile.php?id=100078444701569","target":"blank" }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

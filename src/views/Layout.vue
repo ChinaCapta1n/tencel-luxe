@@ -1,7 +1,7 @@
 <template>
     <div class="content">
         <!-- header -->
-        <header>header</header>
+        <my-header></my-header>
 
         <router-view v-slot="{ Component }">
             <Transition name="fade" mode="out-in">
@@ -13,7 +13,10 @@
         <footer>footer</footer>
     </div>
 </template>
-<script setup></script>
+<script setup>
+import MyHeader from '../components/Header/index.vue';
+
+</script>
 <style lang="scss" scoped>
 .fade-enter-active,
   .fade-leave-active {
